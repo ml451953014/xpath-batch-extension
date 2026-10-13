@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "XPath 批量文字提取",
+  "version": "1.2.1",
+  "description": "选择两个同类字段，用 DOM 结构生成 XPath，预览并导出当前页面文字。完全本地、无模型。",
+  "permissions": [
+    "activeTab",
+    "scripting"
+  ],
+  "action": {
+    "default_title": "开启 XPath 批量文字提取"
+  },
+  "background": {
+    "service_worker": "background.js"
+  }
+}
